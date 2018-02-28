@@ -1,0 +1,16 @@
+PODS:
+  - HUPageController (0.1.0)
+
+DEPENDENCIES:
+  - HUPageController (from `../`)
+
+EXTERNAL SOURCES:
+  HUPageController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HUPageController: 8b2b948d4cfbb409422af6e6d68bd08118826779
+
+PODFILE CHECKSUM: 2e9f6fb01ad262508d2518b4c117671ffbb0e475
+
+COCOAPODS: 1.2.1

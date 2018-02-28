@@ -1,0 +1,6 @@
+framework module HUPageController {
+  umbrella header "HUPageController-umbrella.h"
+
+  export *
+  module * { export * }
+}

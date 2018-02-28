@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  HUPageController
+//  HUPageController_Example
 //
-//  Created by qiusuo8 on 02/28/2018.
-//  Copyright (c) 2018 qiusuo8. All rights reserved.
+//  Created by Huizz on 2018/2/28.
+//  Copyright © 2018年 Qiusuo8. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        window?.makeKeyAndVisible()
         return true
     }
 

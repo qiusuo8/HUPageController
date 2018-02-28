@@ -1,0 +1,23 @@
+{
+  "name": "HUPageController",
+  "version": "0.1.0",
+  "summary": "A page controller component, support tab bar and cover.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qiusuo8/HUPageController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiusuo8": "zhihui.zhao@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/qiusuo8/HUPageController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HUPageController/Classes/**/*",
+  "frameworks": "UIKit"
+}
