@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Support page controller which has a tab bar.
+Support page controller which has a tab bar and cover view.
                        DESC
 
   s.homepage         = 'https://github.com/qiusuo8/HUPageController'
